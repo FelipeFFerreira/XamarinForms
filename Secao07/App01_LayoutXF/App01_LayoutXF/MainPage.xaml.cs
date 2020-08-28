@@ -30,7 +30,7 @@ namespace App01_LayoutXF
         }
         private void GoPaginaRelative(object sender, EventArgs args)
         {
-            Navigation.PushAsync(new Absolute.AbsolutePage());
+            Navigation.PushAsync(new Relative.RelativePage());
         }
         private void GoPaginaScroll(object sender, EventArgs args)
         {
